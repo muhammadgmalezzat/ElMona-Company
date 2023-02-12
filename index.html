@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="bootstrap pro">
+
+<title>المني</title>
+  <!-- css files -->
+          <link rel="stylesheet" href="css/fontawesome-all.min.css">
+<link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=EB+Garamond&family=Noto+Kufi+Arabic:wght@300&family=Reem+Kufi&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+<nav class="navbar bg-body-tertiary ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="/images/شعار المنى-1.png" alt="Logo" width="150" height="120" class="d-inline-block align-text-top">
+      
+    </a>
+  </div>
+</nav>
+
+<div class="header">
+  <div class=" text-center">
+        <img class="d-block mx-auto mb-4" src="/images/2.jpg" alt="" width="100%" height="vh">
+        <h2 style="font-family: 'Noto Kufi Arabic', sans-serif;">نموذج إتمام الشراء</h2>
+        <h3 style="font-family: 'Noto Kufi Arabic', sans-serif; ">اتمام الطلب</ا>
+      </div>
+
+
+    
+      <div class="container">
+        <div class="bd-example-snippet bd-code-snippet">
+          <div class="bd-example">
+            <form class="row g-3">
+                <div class="col-md-6" style="margin-top: 30px;">
+                  <label for="validationServer01" class="form-label">الاسم الاول</label>
+                  <input type="text" class="form-control is-valid" id="validationServer01"  placeholder="الرجاء ادخال الاسم" required>
+                  <div class="valid-feedback">يبدو صحيحًا!</div>
+                </div>
+                <div class="col-md-6" style="margin-top: 30px;">
+                  <label for="validationServer02" class="form-label">الجوال</label>
+                  <input type="number" class="form-control is-valid" id="validationServer02" placeholder="الرجاء ادخال الجوال" required>
+                  <div class="valid-feedback">يبدو صحيحًا!</div>
+                </div>
+                <div class="col-md-6" style="margin-top: 30px;">
+                  <label for="validationServerUsername" class="form-label">اسم المستخدم</label>
+                  <div class="input-group has-validation">
+                    <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3"  placeholder="الرجاء ادخال اسم المستخدم" required>
+                    <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                    <div class="invalid-feedback"> يرجى اختيار اسم مستخدم.</div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-6" style="margin-top: 30px;">
+                  <label for="validationServer03" class="form-label">الكمية</label>
+                  <select class="form-select is-valid" id="validationServer04" required>
+                    <option>1 </option>
+                    <option>2 </option>
+                    <option>3 </option>
+                    <option>4 </option>
+                    <option>5 </option>
+                    <option>6 </option>
+                    <option>7 </option>
+                  </select>
+                </div>
+
+                
+                <div class="col-md-6" style="margin-top: 30px;">
+                  <label for="validationServer04" class="form-label"> المدينة</label>
+                  <select class="form-select is-invalid" id="validationServer04" required>
+                    <option selected disabled value="">اختر المدينة...</option>
+                    <option>المنيا </option>
+                    <option>القاهره </option>
+                    <option>الجيزه </option>
+                  </select>
+                  <div class="invalid-feedback"> يرجى اختيار مدينة صحيحة.</div>
+                </div>
+
+                <div class="col-md-8"  style=" display: inline; margin-top: 50px; ">
+                  <label for="validationServer05" class="form-label">طريقة الدفع *</label>
+
+                  <div class="my-3 ">
+                    <div class="form-check" style="margin-bottom: 15px;">
+                      <img src="/images/paypal.png" style="width: 70px; height: 70px;">
+                      <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                      <label class="form-check-label" for="credit">PayPal</label>
+                    </div>
+                    <div class="form-check" style="margin-bottom: 15px;">
+                      <img src="/images/stc pay.png" style="width: 70px; height: 70px;">
+                      <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                      <label class="form-check-label" for="debit">STC Pay</label>
+                    </div>
+                    <div class="form-check" style="margin-bottom: 15px;">
+                      <img src="/images/visa.png" style="width: 70px; height: 70px;">
+                      <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                      <label class="form-check-label" for="paypal">visa</label>
+                    </div>
+                </div>
+                </div>
+                <div class="col-12" >
+                  <div class="form-check">
+                    <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                    <label class="form-check-label" for="invalidCheck3"> أوافق على الشروط والأحكام</label>
+                    <div class="invalid-feedback"> تجب الموافقة قبل إرسال النموذج.</div>
+                  </div>
+                </div>
+                <div class="col-8">
+                  <button class="btn btn-primary" type="submit" style="font-size: 25px; border-radius: 15px; line-height: 1.7; padding: 10px; ">إرسال النموذج</button>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+</div>
+
+
+<div class="customers">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 style="font-family: 'Noto Kufi Arabic', sans-serif; font-size: 50px;">أراء العملاء</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="card mb-3 mt-4" style="width: fit-content;">
+          <div class="row g-0">
+            <div class="col-md-3">
+              <img src="/images/photo_7.jpg" class="img-fluid " alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">احمد محمود</h5>
+                <div class="icon">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                </div>
+                <p class="card-text">جميل جدا.</p>
+                <p class="card-text"><small class="text-muted">1/2/2023</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="card mb-3 mt-4" style="width: fit-content;">
+          <div class="row g-0">
+            <div class="col-md-3">
+              <img src="/images/photo_5.jpg" class="img-fluid " alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">احمد محمود</h5>
+                <div class="icon">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                </div>
+                <p class="card-text">جميل جدا.</p>
+                <p class="card-text"><small class="text-muted">1/2/2023</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="card mb-3 mt-4" style="width: fit-content;">
+          <div class="row g-0">
+            <div class="col-md-3">
+              <img src="/images/photo_5.jpg" class="img-fluid " alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">احمد محمود</h5>
+                <div class="icon">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                </div>
+                <p class="card-text">جميل جدا.</p>
+                <p class="card-text"><small class="text-muted">1/2/2023</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="card mb-3 mt-4" style="width: fit-content;">
+          <div class="row g-0">
+            <div class="col-md-3">
+              <img src="/images/photo_5.jpg" class="img-fluid " alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">احمد محمود</h5>
+                <div class="icon">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                </div>
+                <p class="card-text">جميل جدا.</p>
+                <p class="card-text"><small class="text-muted">1/2/2023</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="card mb-3 mt-4" style="width: fit-content;">
+          <div class="row g-0">
+            <div class="col-md-3">
+              <img src="/images/photo_1.jpg" class="img-fluid  " alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">احمد محمود</h5>
+                <div class="icon">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                </div>
+                <p class="card-text">جميل جدا.</p>
+                <p class="card-text"><small class="text-muted">1/2/2023</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="card mb-3 mt-4" style="width: fit-content;">
+          <div class="row g-0">
+            <div class="col-md-3">
+              <img src="/images/photo_3.jpg" class="img-fluid " alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">احمد محمود</h5>
+                <div class="icon">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                  <img src="images/star.png" alt="" style="height: 20px; width: 20px;">
+                </div>
+                <p class="card-text">جميل جدا.</p>
+                <p class="card-text"><small class="text-muted">1/2/2023</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+    <section class="contact_us" style="background-image: url(images/WhatsApp\ Image\ 2023-02-12\ at\ 11.03.30.jpg); width: 100%;">
+      <div class="container  " style="text-align: center;">
+        <h2 >موقعنا</h2>
+        <a class="btn btn-light" href="https://maps.app.goo.gl/RK1EqFXTANmPqPUg9?g_st=iwb" role="button"><span class="txt">تفضل بزيارتنا</span></a>
+      </div>
+    </section>
+
+
+
+    <!--  footer  -->
+    <footer>
+      <div class="container">
+        <div class="row clearfix">
+          <div class=" big-column col-lg-8 col-md-12 col-sm-12">
+            <div class="row ">
+              <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                
+                <div class="footer-txt" style="    color: #161616; font-size: 25px; text-align: center;">من نحن</div>
+              <div class="footer-txt" style="font-size: 15px;">
+                <p>متجر المنى منصة التسوّق الإلكتروني الرائدة في السعودية مسجل رسمياً بسجل تجاري رقم 4031208465 ، آمن وموثوق ومسجل في خدمة معروف من وزارة التجارة https://maroof.sa/69833</p>
+              </div>
+                <div class="footer-links">
+                  <ul class="social">
+                    
+                    <li>تلفون<a href="#" target="_blank"><i class="fa-solid fa-phone"></i></a></li>
+              
+                    <li>تلجرام<a href="#" target="_blank"><i class="fa-brands fa-telegram"></i></a></li>
+                    
+                    <li>ايميل<a href="#" target="_blank"><i class="fa-regular fa-envelope"></i></a></li>
+                    
+                    <li>واتساب<a href="#" target="_blank"><i class="fab fa-whatsapp " aria-hidden="true" aria-hidden="true"></i></a></li>
+                    
+                    <li>موبايل<a href="#" target="_blank"><i class="fa-solid fa-mobile-screen-button"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              
+
+              <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                <h2 style="font-family: 'Cairo', sans-serif;
+">روابط مهمه</h2>
+                <div class="widget-content">
+                  <ul class="list">
+                    <li><a href="#">من نحن..؟</a></li>
+                    <li><a href="#">خدمة عملاء المنى</a></li>
+                    <li><a href="#">المدونة</a></li>
+                  </ul>
+                </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class=" big-column col-lg-4 col-md-12 col-sm-12">
+          <div class="row  ">
+            <div class="footer-column  col-md-12 col-sm-12">
+              <div class="logo" style="text-align: center;">
+                  <a class="navbar-brand" href="#">
+                      <img src="/images/شعار المنى-1.png" alt="Logo" width="150" height="100" class="d-inline-block align-text-top">
+                  </a>
+                </div>
+              <h2>تواصل معنا</h2>
+              <div class="widget-content footer-links">
+                  <ul class="social">
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-snapchat"></i></a></li>
+                    <li><a href="https://maps.app.goo.gl/RK1EqFXTANmPqPUg9?g_st=iwb"><i class="fa-solid fa-map"></i></a></li>
+                    
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/7c05f2b117.js" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
